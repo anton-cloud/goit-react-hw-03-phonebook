@@ -1,0 +1,24 @@
+.list {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0;
+}
+
+p {
+  margin: 0 15px;
+}
+
+.item {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.btn {
+  margin-left: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+  outline: none;
+}
